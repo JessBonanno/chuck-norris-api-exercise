@@ -32,7 +32,6 @@ export const Search = (props: Props) => {
 		}
 	}
 
-
 	return (
 		<div>
 			<h3>Search a keyword for more jokes</h3>
