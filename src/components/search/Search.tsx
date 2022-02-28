@@ -32,9 +32,6 @@ export const Search = (props: Props) => {
 		}
 	}
 
-	console.log(jokes.length);
-	console.log({jokes})
-
 
 	return (
 		<div>
