@@ -26,6 +26,7 @@ export const Search = (props: Props) => {
 		e.preventDefault();
 		try {
 			const response = await axios.get(`https://api.chucknorris.io/jokes/search?query=${searchTerm}`);
+			console.log(response.data)
 			setJokes(response.data.result);
 		} catch (err) {
 			console.error(err)

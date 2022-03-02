@@ -1,0 +1,11 @@
+.container {
+	padding: 0 25px;
+}
+
+.navItems {
+	display: flex;
+	flex-direction: row;
+	gap: 25px;
+	list-style: none;
+	justify-content: flex-end;
+}
