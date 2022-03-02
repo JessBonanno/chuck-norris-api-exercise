@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react'
-import { Joke } from '../joke';
+import { DisplayJoke } from '../joke';
 
 type Props = {}
 
@@ -24,7 +24,7 @@ export const Random = (props: Props) => {
 		<div>
 			<h2>Chuck of the day</h2>
 			{joke &&
-				<Joke joke={joke} />
+				<DisplayJoke joke={joke} />
 			}		</div>
 	)
 }

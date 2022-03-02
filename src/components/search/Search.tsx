@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { useState } from 'react';
-import { Joke } from '../joke';
+import { DisplayJoke } from '../joke';
 
 type Props = {}
 
@@ -48,7 +48,7 @@ export const Search = (props: Props) => {
 			{jokes.map((joke, i) => {
 				return (
 					<div key={i}>
-						<Joke joke={joke.value}/>
+						<DisplayJoke joke={joke.value}/>
 					</div>
 				)
 			})}

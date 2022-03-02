@@ -4,7 +4,7 @@ type Props = {
 	joke: string
 }
 
-export const Joke = (props: Props) => {
+export const DisplayJoke = (props: Props) => {
 	const {joke} = props;
 	return (
 		<div className={styles.jokeContainer}>

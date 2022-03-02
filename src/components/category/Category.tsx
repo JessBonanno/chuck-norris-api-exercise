@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { Joke } from '../joke/Joke';
+import { DisplayJoke } from '../joke/DisplayJoke';
 
 type Props = {}
 
@@ -48,7 +48,7 @@ export const Category = (props: Props) => {
 				})}
 			</select>
 			{categoryJoke &&
-				<Joke joke={categoryJoke} />
+				<DisplayJoke joke={categoryJoke} />
 			}
 		</div>
 	)
